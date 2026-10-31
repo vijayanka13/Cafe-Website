@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Mocha</title>
+    <link href="fontawesome-free-6.3.0-web/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/output.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+
+    <body class="bg-orange-50 font-sans text-gray-800 overflow-x-hidden">
+
+        <!--Header Section-->
+
+        <header class="w-full shadow-sm bg-white">
+
+            <nav class="mx-auto max-w-6xl flex items-center justify-between px-4 py-2">
+
+                <div class="logo flex items-center">
+                    <a href="#home">
+                        <img src="images/logo.png" class="" width="80px">
+                    </a>
+                    <h1 class="italic font-bold text-2xl ml-2">Cafe Mocha.</h1>
+                </div>
+
+                <div class="menu hidden mx-auto">
+                    <ul class="flex justify-center gap-6 font-medium">
+
+                        <a href="#home" class="hover:text-orange-700">
+                            <li class="drop cursor-pointer">Home Page<i class="fa-solid fa-caret-down ml-2"></i>
+
+                                <ul class="page_drop shadow-sm bg-white">
+                                    <li>Home V1</li>
+                                    <li>Home V2</li>
+                                    <li>Home V3</li>
+                                    <li>Home V4</li>
+                                </ul>
+
+                            </li>
+                        </a>
+
+
+                        <a href="#menu" class="hover:text-orange-700">
+                            <li class="drop cursor-pointer">Menu<i class="fa-solid fa-caret-down ml-2"></i>
+
+                                <ul class="page_drop shadow-sm bg-white">
+                                    <li>Cappuccino</li>
+                                    <li>Iced Latte</li>
+                                    <li>Classic Espresso</li>
+                                    <li>CheeseBurger</li>
+                                    <li>Glazed Donuts</li>
+                                </ul>
+
+                            </li>
+                        </a>
+
+                        <a href="#about" class="hover:text-orange-700">
+                            <li class="drop cursor-pointer">About<i class="fa-solid fa-caret-down ml-2"></i>
+
+                                <ul class="page_drop shadow-sm bg-white">
+                                    <li>Category</li>
+                                    <li>Archive</li>
+                                    <li>Favourites</li>
+                                    <li>Profile</li>
+                                    <li>Blog Page</li>
+                                </ul>
+
+                            </li>
+                        </a>
+
+                        <a href="#pricing" class="hover:text-orange-700">
+                            <li>Pricing</li>
+                        </a>
+                        <a href="#testimonials" class="hover:text-orange-700">
+                            <li>Testimonials</li>
+                        </a>
+                        <a href="#services" class="hover:text-orange-700">
+                            <li>Services</li>
+                        </a>
+                        <a href="#contact" class="hover:text-orange-700">
+                            <li>Contact</li>
+                        </a>
+                    </ul>
+                </div>
+
+                <a href="#contact"
+                    class="rounded-full bg-amber-900 px-5 py-3 text-sm font-bold text-white hover:bg-orange-700">
+                    Visit Us ↗
+                </a>
+
+            </nav>
+
+        </header>
+
+        <!--Banner Section-->
+
+        <section id="home" class="w-full text-white bg-cover bg-center">
+
+            <div class="mx-auto max-w-6xl py-40 px-6">
+
+                <p class="text-md font-bold uppercase text-orange-200">
+                    Fresh Coffee · Great Food · Good Vibes
+                </p>
+
+                <h1 class="text-5xl font-bold mt-8" style="font-family: 'Playfair Display', serif">
+                    More Than<br>Just Coffee
+                </h1>
+
+                <div class="mt-8 flex flex-wrap gap-4">
+                    <a href="#menu"
+                        class="rounded-lg bg-orange-700 px-6 py-3 font-bold text-white hover:bg-amber-900">
+                        Explore Menu →
+                    </a>
+
+                    <a href="#contact"
+                        class="rounded-lg border border-white px-6 py-3 font-bold hover:bg-white hover:text-orange-700">
+                        Find Us
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--About Section-->
+
+    <section id="about" class="py-20">
+
+        <div class="ab mx-auto max-w-6xl flex items-center">
+
+        <div class="">
+
+            <img src="images/cafe.jpeg" alt="Fresh coffee being prepared in a cafe"
+            class="w-full h-[420px] object-cover rounded-2xl shadow-lg"/>
+
+        </div>
+
+        <div class="md:w-1/2 lg:w-1/2 px-8">
+
+            <p class="ab_cafe uppercase text-orange-700 text-sm font-bold">
+              About Our Cafe
+            </p>
+
+            <h2 class="text-4xl font-bold mt-4">
+              Not just a Cafe, It's an Experience
+            </h2>
+
+            <p class="text-gray-600 mt-6">
+             We believe the best moments happen around a table. From your first morning espresso to a relaxed evening with friends, we're here to make <br> every visit memorable.
+            </p>
+
+             <div class="flex gap-6 mt-8">
+
+              <div class="flex gap-4 items-start">
+                <div class="bg-[#EAD8C5] rounded-xl p-3 text-2xl">✓</div>
+                <div>
+                  <h3 class="font-bold text-lg">Premium Quality</h3>
+                  <p class="text-gray-600 text-sm mt-2">
+                    Quality ingredients in every order.
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex gap-4 items-start">
+                <div class="bg-[#EAD8C5] rounded-full p-3 text-2xl">♡</div>
+                <div>
+                  <h3 class="font-bold text-lg">Made With Love</h3>
+                  <p class="text-gray-600 text-sm mt-2">
+                    Warm service and attention to detail.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+
+            <a href="#contact"
+              class="bg-orange-700 text-white mt-6 inline-block px-7 py-4 rounded-full hover:bg-[#75462E]">
+              Visit Us
+            </a>
+
+        </div>
+        
+    </div>
+
+</section>
+
+<!--Menu-->
+
+<section id="menu" class="py-10 bg-amber-100">
+    
+    <div class="max-w-6xl mx-auto">
+
+        <div class="text-center max-w-2xl mx-auto mt-12 mb-10">
+
+            <p class="text-[#B77949] text-sm font-semibold">
+           OUR FAVOURITES
+            </p>
+            <h2 class="text-4xl font-bold mt-4">Our Popular Menu</h2>
+            <p class="text-gray-600 mt-4 me">
+                From classic coffee favorites to irresistible bakery treats,
+                there is something for everyone.
+            </p>
+
+        </div>
+
+        <!--menu cards-->
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+
+            <!--menu card 1-->
+
+            <article class="menu-card bg-white rounded-2xl overflow-hidden shadow-sm">
+            <div class="menuc overflow-hidden">
+                <img src="images/cafe1.jpeg" class="object-cover"/>
+            </div>
+            <div class="p-6">
+              <div class="flex justify-between items-center">
+                <h3 class="text-2xl font-bold">Classic Espresso</h3>
+                <span class="text-orange-700 font-bold text-lg">₹119</span>
+              </div>    
+              <p class="text-gray-600 text-sm mt-3">
+                A bold, aromatic shot made for true coffee lovers.
+              </p>
+              <a href="#contact" class="inline-block mt-10 text-orange-700 font-semibold hover:underline">
+                Order Now ->
+              </a>
+            </div>
+          </article>
+
+          <!--menucard 2-->
+
+          <article class="menu-card bg-white rounded-2xl overflow-hidden shadow-sm">
+            <div class="menuc overflow-hidden">
+                <img src="images/cafe2.jpeg" class="object-cover"/>
+            </div>
+            <div class="p-6">
+              <div class="flex justify-between items-center">
+                <h3 class="text-2xl font-bold">Iced Latte</h3>
+                <span class="text-orange-700 font-bold text-lg">₹129</span>
+              </div>
+              <p class="text-gray-600 text-sm mt-3">
+               Chilled espresso, fresh milk, and refreshing goodness.
+              </p>
+              <a href="#contact" class="inline-block mt-5 text-orange-700 font-semibold hover:underline">
+                Order Now ->
+              </a>
+            </div>
+          </article>
+
+          <!--menucard 3-->
+
+          <article class="menu-card bg-white rounded-2xl overflow-hidden shadow-sm">
+            <div class="menuc overflow-hidden">
+                <img src="images/cafe3.jpeg" class="object-cover"/>
+            </div>
+            <div class="p-6">
+              <div class="flex justify-between items-center">
+                <h3 class="text-2xl font-bold">Cappuccino</h3>
+                <span class="text-orange-700 font-bold text-lg">₹149</span>
+              </div>
+              <p class="text-gray-600 text-sm mt-3">
+               Rich espresso with steamed milk and a silky foam finish.
+              </p>
+              <a href="#contact" class="inline-block mt-5 text-orange-700 font-semibold hover:underline">
+                Order Now ->
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+
+        <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-10 mt-12">
+
+            <!--menu card 1-->
+
+            <article class="menu-card bg-white rounded-2xl overflow-hidden shadow-sm">
+            <div class="menuc overflow-hidden">
+                <img src="images/cafe4.jpeg" class="object-cover"/>
+            </div>
+            <div class="p-6">
+              <div class="flex justify-between">
+                <h3 class="text-2xl font-bold">Glazed Donuts</h3>
+                <span class="text-orange-700 font-bold text-lg">₹129</span>
+              </div>
+              <p class="text-gray-600 text-sm mt-3">
+                Soft, fluffy donuts with a delicious sweet glaze.
+              </p>
+              <a href="#contact" class="inline-block mt-12 text-orange-700 font-semibold hover:underline">
+                Order Now ->
+              </a>
+            </div>
+          </article>
+
+          <!--menucard 2-->
+
+          <article class="menu-card bg-white rounded-2xl overflow-hidden shadow-sm">
+            <div class="menuc overflow-hidden">
+                <img src="images/menu25.jpg" class="object-cover"/>
+            </div>
+            <div class="p-6">
+              <div class="flex justify-between">
+                <h3 class="text-2xl font-bold">Chocolate and <br>Banana Jar Cake</h3>
+                <span class="text-orange-700 font-bold text-lg">₹129</span>
+              </div>
+              <p class="text-gray-600 text-sm mt-3">
+               Chocolate goodness with Banana Jar Cake
+              </p>
+              <a href="#contact" class="inline-block mt-5 text-orange-700 font-semibold hover:underline">
+                Order Now ->
+              </a>
+            </div>
+          </article>
+
+          <!--menucard 3-->
+
+          <article class="menu-card bg-white rounded-2xl overflow-hidden shadow-sm">
+            <div class="menuc overflow-hidden">
+                <img src="images/menu4.jpg" class="object-cover"/>
+            </div>
+            <div class="p-6">
+              <div class="flex justify-between items-center">
+                <h3 class="text-2xl font-bold">Breakfast CheeseBurger</h3>
+                <span class="text-orange-700 font-bold text-lg">₹149</span>
+              </div>
+              <p class="text-gray-600 text-sm mt-3">
+              Gooey and cheesy breakfast Cheese Burger
+              </p>
+              <a href="#contact" class="inline-block mt-5 text-orange-700 font-semibold hover:underline">
+                Order Now ->
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--Services-->
+
+<section id="services" class="py-10">
+    
+    <div class="max-w-6xl mx-auto">
+
+        <div class="text-center mb-12">
+          <p class="text-orange-700 text-xl font-bold">
+            What We Offer
+          </p>
+          <h2 class="text-4xl font-bold mt-4">
+            Services Made for You
+          </h2>
+        </div>
+
+        <div class="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8">
+
+            <div class="serve bg-white p-8 rounded-2xl shadow-lg text-center border border-gray-400">
+                <div class="text-5xl mb-5">☕</div>
+                <h3 class="text-2xl font-semibold">Dine-In Experience</h3>
+                <p class="text-gray-600 mt-4">
+                Enjoy your favorite drinks and treats in our relaxing cafe.
+                </p>
+                <a href="#contact" class="inline-block mt-6 text-orange-700 font-bold hover:underline">
+                Learn More ->
+                </a>
+            </div>
+
+            <div class="serve bg-white p-8 rounded-2xl shadow-lg text-center border border-gray-400">
+                <div class="text-5xl mb-5">🛍️</div>
+                <h3 class="text-2xl font-semibold">Takeaway Orders</h3>
+                <p class="text-gray-600 mt-4">
+                Grab your coffee and freshly baked snacks on the go.
+                </p>
+                <a href="#contact" class="inline-block mt-6 text-orange-700 font-bold hover:underline">
+                Learn More ->
+                </a>
+            </div>
+
+            <div class="serve bg-white p-8 rounded-2xl shadow-lg text-center border border-gray-400">
+                <div class="text-5xl mb-5">🎉</div>
+                <h3 class="text-2xl font-semibold">Private Events</h3>
+                <p class="text-gray-600 mt-4">
+                    Make small celebrations and gatherings extra special with us.                
+                </p>
+                <a href="#contact" class="inline-block mt-6 text-orange-700 font-bold hover:underline">
+                Learn More ->
+                </a>
+            </div>
+    
+        </div>
+    
+    </div>
+
+</section>  
+
+
+<!--Pricing-->
+
+<section id="pricing" class="px-5 py-16 bg-amber-100">
+    <div class="mx-auto max-w-6xl">
+
+        <div class="mb-10 text-center">
+            <p class="font-bold uppercase text-orange-700">Membership Plans</p>
+            <h2 class="mt-2 text-4xl font-bold" style="font-family: 'Playfair Display', serif">Our Pricing</h2>
+        </div>
+
+        <div class="grid gap-7 md:grid-cols-3">
+        
+            <!--price card 1-->
+
+        <article class="rounded-2xl border border-gray-300 bg-white p-8 text-center shadow-sm">
+          <h3 class="text-2xl font-bold">Coffee Lover</h3>
+          <p class="mt-4 text-4xl font-bold text-orange-700">₹299</p>
+          <p class="text-sm text-stone-500">per month</p>
+          <ul class="pricing my-7 text-sm text-gray-600">
+            <li><i class="fa-solid fa-check"></i> 2 Coffee Drinks Daily</li>
+            <li><i class="fa-solid fa-check"></i> 10% Off on Food</li>
+            <li><i class="fa-solid fa-check"></i> Free Wi-Fi</li>
+          </ul>
+          <a href="#contact" class="block rounded-lg border border-orange-700 py-3 font-semibold text-orange-700 hover:bg-orange-700 hover:text-white">Get Started</a>
+        </article>
+
+        <!--price card 2-->
+
+        
+        <article class="price rounded-2xl border-2 border-orange-700 bg-white p-8 text-center shadow-sm">
+        <span class="rounded-full bg-orange-700 px-4 py-1 text-xs font-bold text-white">MOST POPULAR</span>
+          <h3 class="text-2xl font-bold">Foodie Plan</h3>
+          <p class="mt-4 text-4xl font-bold text-orange-700">₹499</p>
+          <p class="text-sm text-stone-500">per month</p>
+          <ul class="pricing my-7 text-sm text-gray-600">
+           <li><i class="fa-solid fa-check"></i> 2 Coffee Drinks Daily</li>
+            <li><i class="fa-solid fa-check"></i> 1 Food Item Daily</li>
+            <li><i class="fa-solid fa-check"></i> 15% Off on Bakery</li>
+            <li><i class="fa-solid fa-check"></i> Priority Seating</li>
+          </ul>
+          <a href="#contact" class="block bg-orange-700 rounded-lg py-3 font-semibold hover:bg-amber-900 text-white">Get Started</a>
+        </article>
+
+        <!--price card 3-->
+        
+        <article class="rounded-2xl border border-gray-300 bg-white p-8 text-center shadow-sm">
+          <h3 class="text-2xl font-bold">Premium Plan</h3>
+          <p class="mt-4 text-4xl font-bold text-orange-700">₹799</p>
+          <p class="text-sm text-stone-500">per month</p>
+          <ul class="pricing my-7 text-sm text-gray-600">
+           <li><i class="fa-solid fa-check"></i>Unlimited Coffee</li>
+            <li><i class="fa-solid fa-check"></i> 1 Food Item Daily</li>
+            <li><i class="fa-solid fa-check"></i> 20% Off on All Items</li>
+            <li><i class="fa-solid fa-check"></i> Exclusive Member Events</li>
+          </ul>
+          <a href="#contact" class="block rounded-lg border border-orange-700 py-3 font-semibold text-orange-700 hover:bg-orange-700 hover:text-white">Get Started</a>
+        </article>
+
+        </div>  
+
+    </div>
+</section>
+
+<!--Testimonials-->
+
+<section id="testimonials" class="py-10">
+    
+    <div class="max-w-6xl mx-auto">
+    
+        <div class="text-center mb-12">
+          <p class="uppercase text-orange-700 text-sm font-semibold">
+            Customer Stories
+          </p>
+          <h2 class="text-4xl font-bold mt-4">What People Say</h2>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-3 gap-8">
+
+            <article class="people bg-white p-8 rounded-2xl shadow-lg border border-gray-300   ">
+                <div class="text-orange-700 text-xl">★★★★★</div>
+                <p class="text-gray-600 mt-5">
+                "Amazing coffee and such a peaceful atmosphere. It's my favorite
+                place to start the morning."
+                </p>
+                <div class="flex items-center gap-4 mt-7">
+                <div class="w-12 h-12 rounded-full bg-gray-200 flex items-center justify-center text-xl">PS</div>
+                <div>
+                    <h3 class="font-semibold">Priya Sharma</h3>
+                    <p class="text-gray-500 text-sm">Regular Customer</p>
+                </div>
+                </div>
+            </article>
+
+            <article class="people bg-white p-8 rounded-2xl shadow-lg border border-gray-300">
+                <div class="text-orange-700 text-xl">★★★★★</div>
+                <p class="text-gray-600 mt-5">
+                "The cappuccino is delicious, the glazed donuts are fresh, and the
+              staff are always friendly."
+                </p>
+                <div class="flex items-center gap-4 mt-7">
+                <div class="w-12 h-12 rounded-full bg-gray-200 flex items-center justify-center text-xl">RM</div>
+                <div>
+                    <h3 class="font-semibold">Rahul Mehta</h3>
+                    <p class="text-gray-500 text-sm">Coffee Lover</p>
+                </div>
+                </div>
+            </article>
+
+            <article class="people bg-white p-8 rounded-2xl shadow-lg border border-gray-300">
+                <div class="text-orange-700 text-xl">★★★★★</div>
+                <p class="text-gray-600 mt-5">
+                "A lovely place to catch up with friends or work on my laptop.
+              Great drinks and a cozy vibe."
+                </p>
+                <div class="flex items-center gap-4 mt-7">
+                <div class="w-12 h-12 rounded-full bg-gray-200 flex items-center justify-center text-xl">AV</div>
+                <div>
+                    <h3 class="font-semibold">Ananya Verma</h3>
+                    <p class="text-gray-500 text-sm">Happy Guest</p>
+                </div>
+                </div>
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Contact and Map -->
+ 
+  <section id="contact" class="bg-white px-5 py-16">
+
+    <div class="mx-auto max-w-6xl grid gap-10 lg:grid-cols-2">
+
+        <div class="rounded-2xl bg-orange-800 p-7 text-white">
+        <h2 class="text-4xl font-bold" style="font-family: 'Playfair Display', serif">Get In Touch</h2>
+        <p class="mt-3 text-sm font-semibold text-gray-200">Send us a message or plan your next visit.</p>
+
+        <form id="contactForm" class="mt-7 space-y-5">
+
+          <div>
+            <label for="name" class="mb-2 block text-lg">Your Name</label>
+            <input id="name" name="name" type="text" required placeholder="Enter your name"
+            class="w-full bg-white text-black rounded-lg px-4 py-3">
+          </div>
+
+           <div>
+            <label for="service" class="mb-2 block text-lg">Select Service</label>
+            <select id="service" name="service" required
+                    class="w-full bg-white rounded-lg px-4 py-3 text-stone-800 outline-none">
+              <option value="">Choose a service</option>
+              <option>Dine In</option>
+              <option>Takeaway</option>
+              <option>Home Delivery</option>
+              <option>Private Events</option>
+              <option>Membership</option>
+            </select>
+          </div>
+
+           <div>
+            <label for="message" class="mb-2 block text-white text-lg">Your Message</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Write your message..."
+            class="w-full rounded-lg px-4 py-3 bg-white"></textarea>
+            </div>
+
+            <button type="submit" class="w-full rounded-lg bg-gray-700 px-6 py-3 font-semibold text-white hover:bg-orange-400">
+                    Send Message
+            </button>
+
+        </form>
+        </div>
+
+        <div>
+            <h2 class="text-3xl font-bold" style="font-family: 'Playfair Display', serif">Find Us
+            </h2>
+                <p class="mt-4 text-gray-600">
+                📍 12th B Road, Sardarpura<br>
+                Jodhpur, Rajasthan 342003
+                </p>
+            <p class="mt-2">
+                <a href="" class="font-semibold text-orange-700">☎ +91 98765 43210
+                </a>
+            </p>
+
+            <div class="mt-6 overflow-hidden rounded-2xl shadow-md">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28618.888662808018!2d73.015917!3d26.282392!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39418c311b075dc3%3A0x20110ffc37f13131!2sSardarpura%2C%20Jodhpur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1793352573813!5m2!1sen!2sin" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+            </div>
+
+        </div>
+
+    </div>
+  </section>
+
+   <!-- Business Hours -->
+  <section class="px-5 py-16">
+    <div class="mx-auto max-w-5xl">
+      <h2 class="text-center text-3xl font-bold" style="font-family: 'Playfair Display', serif">Business Hours</h2>
+
+      <div class="mt-8 rounded-2xl bg-white p-6 shadow-sm">
+        <div class="flex flex-col gap-5 md:flex-row md:justify-between">
+          <div class="flex-1">
+            <p class="font-semibold">Monday - Friday</p>
+            <p class="mt-1 text-stone-500">8:00 AM - 10:00 PM</p>
+          </div>
+          <div class="flex-1">
+            <p class="font-semibold">Saturday</p>
+            <p class="mt-1 text-stone-500">9:00 AM - 11:00 PM</p>
+          </div>
+          <div class="flex-1">
+            <p class="font-semibold">Sunday</p>
+            <p class="mt-1 text-stone-500">9:00 AM - 10:00 PM</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Call To Action -->
+  <section class="bg-amber-900 px-5 py-16 text-center text-white">
+    <h2 class="text-3xl font-bold md:text-5xl" style="font-family: 'Playfair Display', serif">
+      Ready for a Great Experience?
+    </h2>
+    <p class="mt-4 text-orange-100">Visit us and enjoy great coffee and food.</p>
+    <a href="#contact" class="mt-8 inline-block rounded-lg bg-orange-700 px-8 py-4 font-semibold hover:bg-white hover:text-amber-900">
+      Visit Our Cafe →
+    </a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-stone-950 px-5 py-12 text-stone-300">
+    <div class="mx-auto grid max-w-7xl gap-10 sm:grid-cols-2 lg:grid-cols-4">
+
+      <div>
+        <a href="#home" class="text-3xl italic font-bold text-white">Cafe Mocha.</a>
+        <p class="mt-4 text-sm leading-7 text-stone-400">
+          Handcrafted coffee, delicious food, and a cozy space for great conversations.
+        </p>
+      </div>
+
+      <div>
+        <h3 class="mb-4 font-bold text-white">Quick Links</h3>
+        <ul class="space-y-3 text-sm">
+          <li><a href="#home" class="hover:text-orange-700">Home</a></li>
+          <li><a href="#about" class="hover:text-orange-700">About Us</a></li>
+          <li><a href="#menu" class="hover:text-orange-700">Menu</a></li>
+          <li><a href="#pricing" class="hover:text-orange-700">Pricing</a></li>
+          <li><a href="#contact" class="hover:text-orange-700">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="mb-4 font-bold text-white">Our Services</h3>
+        <ul class="space-y-3 text-sm">
+          <li>Dine In</li>
+          <li>Takeaway</li>
+          <li>Home Delivery</li>
+          <li>Private Events</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="mb-4 font-bold text-white">Contact Info</h3>
+        <ul class="space-y-3 text-sm">
+          <li>📍 12th B road, Sardarpura, Jodhpur</li>
+          <li>☎ +91 98765 43210</li>
+          <li>✉ hello@CafeMocha.com</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="mx-auto mt-10 max-w-6xl border-t border-gray-300 pt-6 text-center text-sm text-gray-300">
+      © 2026 Cafe Mocha. All rights reserved.
+    </div>
+  </footer>
+
+
+    </body>
+
+</html>

@@ -1,0 +1,107 @@
+@media only screen and (min-width:0px) and (max-width:320px)
+{
+    .menu
+    {
+        display:none;
+    }
+    .logo h1{
+        font-size: 18px;
+    }
+    .logo img{
+        width:30px;
+        height:30px
+    }
+    nav a{
+        width:30px;
+        height:20px;
+    }
+    #home
+    {
+        height:300px;
+        padding:0px 20px;
+        background-size: cover;
+    }
+    #home h1
+    {
+        font-size: 36px;
+    }
+    .ab
+    {
+        flex-direction: column;
+    }
+    #about img{
+        height:350px;
+        padding:10px;
+    }
+    .ab_cafe
+    {
+        margin-top:20px;
+        text-align: center;
+    }
+     .me{
+        padding:0px 20px;
+    }
+    .menu-card
+    {
+        margin:20px;
+    }
+    .serve
+    {
+       margin:20px; 
+    }
+    .people
+    {
+       margin:20px; 
+    }
+}
+@media only screen and (min-width:321px) and (max-width:576px)
+{
+ .menu
+    {
+        display:none;
+    }
+
+    .logo h1{
+        font-size: 18px;
+    }
+    .ab
+    {
+        flex-direction: column;
+    }
+    #about img{
+        height:370px;
+        padding:10px;
+    }
+    .ab_cafe
+    {
+        margin-top:20px;
+        text-align: center;
+    }
+    .me{
+        padding:0px 20px;
+    }
+    .menu-card
+    {
+        margin:20px;
+    }
+    .serve
+    {
+       margin:20px; 
+    }
+    .people
+    {
+       margin:20px; 
+    }
+     #home h1
+    {
+        font-size: 36px;
+    }
+}
+@media only screen and (min-width:577px) and (max-width:768px)
+{
+
+}
+@media only screen and (min-width:769px) and (max-width:1280px)
+{
+
+}   
